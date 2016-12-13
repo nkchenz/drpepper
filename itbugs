@@ -1,0 +1,22 @@
+IT奇葩志
+----------------
+strace时候不能sudo，观察者效应，你调试的时候有bug，你不调试的时候反倒没bug了
+
+docker nagios没有报警邮件，需要配置发送邮件command，验证发送邮件自身没有问题，查看
+notification_interval 变量，仔细阅读文档。每个service和host是有关联的，如果host已经down了，
+service的报警就不会发出，打开nagios debug log之后才看到。host down是因为没有ping command
+
+docker jenkins环境，使用jenkins用户ssh其他机器，死活报auth cancel，换其他用户就没问题
+
+cron不工作，先看看cron里面的path环境变量有没有设置
+
+cron不运行了。重启crond也没有用，更改了时间也没有用。直接在那个目录下执行脚本是正常的。
+出错信息呢？cron里面没有。2>&1，弄了之后，立马知道原因了，是程序错误。顺带用strace调了一下
+
+docker -v volume dir问题。同样的openvpn配置，以前好好的，突然就不行了。
+总是报hmac auth failed。直到有一次生成文件的时候，报xxx文件not found，突然想到还有好多docker container
+处于停止状态，都在挂载着这个volume，可能会有问题，于是删掉所有stopped的容器，重新搭建，世界终于清静了。
+原来教程里面的volume container是有原因的
+
+微信支付死活报签名错误。查对各种appid，appsecret，程序debug，server端收到数据，都是正确的。
+后咨询客服，少了在商户号中设置key这一步
