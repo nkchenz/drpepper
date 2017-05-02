@@ -1,3 +1,6 @@
+Machine Fitting
+==================
+
 我们来聊一聊机器学习到底是什么。
 
 识别图像中的文字，物体，语音转文字，无人驾驶，更高级一点的客服助手，如果从抽象的角度上来看，都可以看做是一种功能，
@@ -21,14 +24,18 @@ GPU才使之成为可能。
 
 所有计算机程序都是可拟合的吗？可以用计算机语言实现的算法，都是可拟合的。
 
-X  ->
+```
+  X  ->
       prepare ALGO
           prepare PL
               prepare CPU
                           -> Y
-
+```
 这被称为 https://en.wikipedia.org/wiki/Universal_approximation_theorem
 
+
+Perception or Cognition
+-----------------------------
 
 视觉，听觉都是关于模型的。模式识别与认知的区别。machine fitting 可以胜任模式识别的工作，但是更重要的机器认知呢? 
 识别出物体，理解物体背后的隐含，关联的意义呢
@@ -40,5 +47,8 @@ https://en.wikipedia.org/wiki/Cognition
 不但要给出特定的输出，还要理解这个输出的意义，比如图中的物体是苹果，苹果是一种水果，苹果可以吃，苹果也可以拿来打人
 等等，这就比图像识别更进了一层。
 
-ps. 可以看一下 阿里闵万里：有个现象，叫深度泛滥；有种AI公司，叫伪创业
-https://www.huxiu.com/article/192867.html
+附:
+
+Andrew Ng 博士课程视频 http://www.bilibili.com/video/av6949929/
+
+阿里闵万里：有个现象，叫深度泛滥；有种AI公司，叫伪创业 https://www.huxiu.com/article/192867.html
