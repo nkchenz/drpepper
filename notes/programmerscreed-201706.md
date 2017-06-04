@@ -32,3 +32,7 @@ monitor everything, alert the fatal
 怎么样才能写出没有bug的代码？意识到这个问题，你已经在正确的道路上了
 
 放弃吧，不是所有人都适合写程序
+
+
+[1] http://courses.cs.vt.edu/professionalism/WorldCodes/Programmers.Creed.html
+[2] https://pastebin.com/6vSkLDmk The programmer's creed
