@@ -7,7 +7,7 @@ Programmer's Creed
 
 小比大好，分而治之可以解决大部分问题
 
-没有什么是cache解决不了的问题，如果有，就再加上parallel
+没有什么是冗余和cache解决不了的问题，如果有，就再加上parallel
 
 同构比异构好
 
