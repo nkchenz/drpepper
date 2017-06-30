@@ -1,3 +1,7 @@
+
+author: @nkchenz
+date: 2017/6/29
+
 # On Platform Engineering
 
 ## Objectives
