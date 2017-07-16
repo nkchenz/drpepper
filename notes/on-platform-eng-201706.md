@@ -5,8 +5,8 @@ date: 2017/6/29
 # On Platform Engineering
 
 ## Objectives
-- 服务自助化: 去除瓶颈，赋能开发者
 - 信息透明化: 系统状态随时掌握, bridge console 可以看到一切
+- 服务自助化: 去除瓶颈，赋能开发者
 - 运维智能化: 简单故障自愈，高容错，人工旁路检测
 
 
