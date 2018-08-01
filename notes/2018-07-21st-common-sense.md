@@ -29,6 +29,9 @@ author: @nkchenz date: 2018/7
 私人领域的愚昧、野蛮是对文明社会最大的威胁
 
 
+## God
+
+There is no afterlife, and you have to deal with it.
 
 ## 其他
 
