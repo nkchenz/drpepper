@@ -1,7 +1,7 @@
 author: @nkchenz date: 2018/7
  
 
-# 21世纪国人通识大纲
+# Common sense
 
 
 ## 天赋人权
@@ -14,7 +14,7 @@ author: @nkchenz date: 2018/7
 
 ## 公共领域与私人领域
 
-与人为善，正直的社会
+与人为善，真实，公正
 
 ## 规则与契约
 
@@ -31,18 +31,14 @@ author: @nkchenz date: 2018/7
 
 ## God
 
-There is no afterlife, and you have to deal with it.
+There is no afterlife, and you have to deal with it
 
 ## 其他
 
-#### 洁净
+#### 干净
 
 #### 科技
 
 #### 美好生活
 
-#### 可再生资源，可持续发展
-
-
--- EOF
-
+#### 可再生资源
