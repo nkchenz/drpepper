@@ -30,6 +30,7 @@ author: @nkchenz date: 2018/12
 - 有序的混乱
 - 跨学科思维 掌握每个学科的核心原则，模式
 - 面单系统 所有系统都可以拆分、化简为面单系统
+- 所有业务都应该是无状态的，有状态的都应该由专门的存储部门管理
 - AWS架构:
     Operational Excellence
     Security
